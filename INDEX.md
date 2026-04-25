@@ -6,6 +6,13 @@ A continuously updated, evidence-weighted map of aging interventions. Verdicts f
 
 > **📄 Paper:** [Where the Longevity Discourse is Systematically Wrong](paper/paper.md) — synthesis paper covering the methodology + the eight findings the popular discourse gets wrong + what deserves more attention. [HTML version](paper/paper.html) · [Machine-readable verdict table (CSV)](paper/verdict-table.csv)
 >
+> **📌 Publication status (submitted 2026-04-25):**
+> - Zenodo (locked methodology + verdict-table snapshot, immutable pre-commitment archive): [DOI 10.5281/zenodo.19768647](https://doi.org/10.5281/zenodo.19768647) — published
+> - Zenodo (paper PDF + Markdown + verdict CSV): [DOI 10.5281/zenodo.19769433](https://doi.org/10.5281/zenodo.19769433) — published
+> - medRxiv preprint: `MEDRXIV/2026/351734` — submitted, awaiting screening (DOI assigned at posting)
+> - npj Aging (Springer Nature, peer review): submission ID `56b33daa-7a35-493b-a94d-656697ad825a` — under technical check
+> - The Lancet Healthy Longevity (peer review): manuscript number `THELANCETHEALTHYLONGEVITY-S-26-00591` — under editorial review
+>
 Verdicts use these bands (lowest evidence → highest):
 - **Insufficient evidence** — too little data to form a verdict
 - **Mostly hype** — popular intervention; tested rigorously and failed, or never had higher-tier support
