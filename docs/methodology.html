@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Methodology</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="nav"><a href="index.html">← All interventions</a></div>
+<header id="title-block-header">
+<h1 class="title">Methodology</h1>
+</header>
+<h1 id="methodology">Methodology</h1>
+<p><strong>Status: LOCKED. Date locked: 2026-04-24.</strong></p>
+<p>This document defines how every intervention page is produced. It is
+written before any specific intervention is assessed so that future-me
+cannot move goalposts to fit a preferred conclusion. Changes are logged
+as commits to this repository with explicit "methodology revision"
+reasoning, and force re-review of every existing page.</p>
+<hr />
+<h2 id="1-scope">1. Scope</h2>
+<p>This project synthesizes the evidence for <strong>healthspan and
+lifespan interventions</strong> in:</p>
+<ul>
+<li>Invertebrate models (C. elegans, D. melanogaster, S.
+cerevisiae)</li>
+<li>Mammalian models (mouse, rat, dog, NHP)</li>
+<li>Humans (where any data exists)</li>
+</ul>
+<p><strong>Endpoints we evaluate:</strong> median lifespan, maximum
+lifespan, healthspan markers (frailty, grip strength, gait, cognition),
+validated biomarkers of aging (epigenetic clocks, GlycanAge, etc.),
+all-cause mortality where available.</p>
+<p><strong>Endpoints we do not evaluate:</strong> subjective wellness,
+single-domain outcomes (e.g., "improves sleep") unless tied to an aging
+mechanism, marketing claims.</p>
+<p>We do <strong>not</strong> issue supplement or treatment
+recommendations. The output is a calibration aid for readers who already
+plan to make their own decisions.</p>
+<hr />
+<h2 id="2-evidence-tiers">2. Evidence tiers</h2>
+<p>Every claim is anchored to one of these tiers. Higher tiers dominate
+lower tiers in conflict.</p>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>T1</strong></td>
+<td>Human RCT, pre-registered, n ≥ 100, hard endpoint (mortality,
+validated aging biomarker), independently replicated</td>
+</tr>
+<tr>
+<td><strong>T2</strong></td>
+<td>Human RCT, pre-registered, single trial OR surrogate endpoint OR n
+&lt; 100; <strong>OR</strong> large prospective cohort with strong
+confounder control</td>
+</tr>
+<tr>
+<td><strong>T3</strong></td>
+<td>ITP-replicated mouse lifespan result (any sex), or RP2-replicated,
+or ≥ 2 independent labs with consistent direction in mice</td>
+</tr>
+<tr>
+<td><strong>T4</strong></td>
+<td>Single-lab mouse lifespan extension, or NHP biomarker improvement,
+or healthspan-only mouse data</td>
+</tr>
+<tr>
+<td><strong>T5</strong></td>
+<td>Invertebrate lifespan extension (C. elegans, fly, yeast);
+mechanistic plausibility only</td>
+</tr>
+<tr>
+<td><strong>T0</strong></td>
+<td>Anecdote, n-of-1, uncontrolled human observation, biohacker
+self-report, in vitro cell line only</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cross-species translation discount:</strong> results in tier
+T5 do not transfer to mammals without independent confirmation. T4 →
+human translation is discounted by 1 tier when applied to human
+verdict.</p>
+<hr />
+<h2 id="3-verdict-bands">3. Verdict bands</h2>
+<p>Every intervention receives one of:</p>
+<ul>
+<li><strong>Strong</strong> — T1 or multiple T2 evidence in humans,
+mechanism understood, effect direction agreed across labs. Examples
+expected: exercise.</li>
+<li><strong>Probable</strong> — T3 evidence solid AND at least
+suggestive human data (T2 surrogate endpoint or large cohort). Examples
+expected: rapamycin (mice strong, human limited).</li>
+<li><strong>Suggestive</strong> — T3 or T4 evidence with replication;
+human data absent or null. Examples expected: spermidine, taurine
+(pending replication).</li>
+<li><strong>Mixed</strong> — Tier-appropriate evidence exists but
+replication has failed or sex/strain dependence is severe. Examples
+expected: metformin in non-diabetics.</li>
+<li><strong>Mostly hype</strong> — Popular intervention with only T0/T5
+evidence, or T4 evidence that has failed replication at higher tiers.
+Examples expected: resveratrol.</li>
+<li><strong>Insufficient evidence</strong> — Too little data of any tier
+to form a verdict.</li>
+</ul>
+<p>A verdict band must be defensible against the calibration anchors. If
+a new intervention I'm rating "Probable" has weaker evidence than
+rapamycin (the anchor for Probable), I have miscalibrated.</p>
+<hr />
+<h2 id="4-required-fields-per-intervention-page">4. Required fields per
+intervention page</h2>
+<p>Every page must populate ALL of the following. Missing data is
+recorded as "no data found" — never silently omitted.</p>
+<ol type="1">
+<li><strong>TL;DR verdict</strong> (one sentence + verdict band)</li>
+<li><strong>What it is</strong> (chemical class, dose ranges,
+route)</li>
+<li><strong>Proposed mechanism</strong> with confidence level
+(established / plausible / hypothetical)</li>
+<li><strong>Evidence ladder</strong> — separate subsections for
+invertebrate, mouse, NHP, human; each with study count, effect size
+range, replication status</li>
+<li><strong>Sex, strain, dose dependence</strong> — required for mouse
+data; if not specified in the literature, that is itself a flag</li>
+<li><strong>Confounds</strong> — control diet adequacy, baseline
+mortality of the strain (short-lived strains inflate apparent gains),
+publication bias signal</li>
+<li><strong>Conflict of interest scan</strong> — industry funding,
+author equity, supplement industry ties</li>
+<li><strong>Human translation</strong> — what RCTs exist, what they
+actually measured, what they actually showed</li>
+<li><strong>Calibrated verdict</strong> — band + 2-3 sentence rationale
++ comparison to nearest calibration anchor</li>
+<li><strong>Confidence interval on verdict</strong> — "could plausibly
+move to X if Y replicates"</li>
+<li><strong>Open questions</strong> — things that would change the
+verdict if resolved</li>
+<li><strong>Last reviewed</strong> — date stamp</li>
+<li><strong>Sources</strong> — every citation with link if
+available</li>
+</ol>
+<hr />
+<h2 id="5-conflict-of-interest-discounts">5. Conflict-of-interest
+discounts</h2>
+<ul>
+<li>Industry-funded study without pre-registration → discount 1 evidence
+tier</li>
+<li>Author holds equity in the intervention's commercializer → discount
+1 tier</li>
+<li>Pre-registered + industry-funded → no discount (pre-registration
+neutralizes)</li>
+<li>Studies funded by NIA / Wellcome / equivalent independent → no
+discount</li>
+<li>ITP results never discounted (its design is the gold standard for
+this purpose)</li>
+</ul>
+<hr />
+<h2 id="6-replication-standards">6. Replication standards</h2>
+<ul>
+<li><strong>In mice:</strong> "replicated" means ≥ 2 independent labs OR
+ITP positive cohort. A single-lab result, no matter how striking, is T4
+not T3.</li>
+<li><strong>In humans:</strong> "replicated" means ≥ 2 independent RCTs
+with consistent direction on the same primary endpoint. Meta-analyses of
+underpowered trials do not count as replication.</li>
+<li><strong>Negative replications:</strong> a single high-quality
+negative replication does not erase a positive result, but two negative
+replications at the next-highest tier downgrade the verdict by one
+band.</li>
+</ul>
+<hr />
+<h2 id="7-verdict-change-protocol">7. Verdict change protocol</h2>
+<p>Verdicts can move. The thresholds:</p>
+<ul>
+<li><strong>Upgrade</strong> (one band up): requires new evidence at a
+higher tier than the current anchor evidence, OR a previously-flagged
+open question resolved positively.</li>
+<li><strong>Downgrade</strong> (one band down): requires (a) two
+negative replications at the next-highest evidence tier, OR (b)
+discovery of a methodological flaw invalidating the anchor evidence, OR
+(c) failure of a pre-registered confirmatory trial.</li>
+<li>Any verdict change is logged in the commit history with the
+triggering evidence and pre-existing threshold quoted in the commit
+message.</li>
+</ul>
+<p>This is the anti-drift mechanism. If I find myself wanting to upgrade
+NMN because a new podcast made a compelling case, the methodology says
+no without new evidence at the right tier.</p>
+<hr />
+<h2 id="8-when-the-methodology-is-silent">8. When the methodology is
+silent</h2>
+<p>Some questions cannot be resolved from these rules alone (e.g., "is
+pre-print evidence admissible?", "how do we handle a retracted paper
+that's been re-published?"). Decision protocol:</p>
+<ol type="1">
+<li>First pass: triangulate from the published positions of the
+calibration authorities — Matt Kaeberlein, the ITP team, Cochrane
+reviewers if relevant. What would they do?</li>
+<li>Second pass: open a GitHub issue on this repository for broader
+review.</li>
+<li>Third pass: leave the question open; flag it explicitly on the
+affected intervention page.</li>
+</ol>
+<p>Never silently invent a rule. If a new rule is needed, it goes
+through the methodology-revision process (section header).</p>
+<hr />
+<h2 id="9-what-this-methodology-deliberately-excludes">9. What this
+methodology deliberately excludes</h2>
+<ul>
+<li><strong>No precision-medicine claims.</strong> We rate interventions
+at the population level. Individual variation is real but out of
+scope.</li>
+<li><strong>No combination therapies in solo pages.</strong>
+Combinations get their own pages in <code>interactions/</code>.</li>
+<li><strong>No legal/regulatory analysis.</strong> "Available OTC in the
+US" is not evidence relevant to a verdict.</li>
+<li><strong>No reasoning from mechanism alone.</strong> "It hits mTOR so
+it should work" never elevates a verdict above Suggestive.</li>
+<li><strong>No pricing or accessibility commentary.</strong> The verdict
+is about the evidence; what people do with it is their choice.</li>
+</ul>
+<hr />
+<h2 id="10-methodology-revision-log">10. Methodology revision log</h2>
+<p>(none yet — methodology locked 2026-04-24)</p>
+<div class="footer">
+  Aging Synthesis — locked methodology, evidence-weighted verdicts. Updated continuously.
+  <a href="methodology.html">Methodology</a> ·
+  <a href="CALIBRATION_ANCHORS.html">Anchors</a> ·
+  <a href="https://github.com/keyserfaty/aging-synthesis/commits/main">Commit history</a>
+</div>
+</body>
+</html>

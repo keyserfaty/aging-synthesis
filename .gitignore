@@ -1,0 +1,18 @@
+# Internal process — not for public release
+publication/
+meta/prompts/
+meta/playbook.md
+BACKLOG.md
+QUESTIONS.md
+DECISIONS.md
+ESCALATIONS.md
+CHANGELOG.md
+
+# Build artifacts — site/ is the local build target; docs/ is what Pages serves
+site/
+
+# OS / editor cruft
+.DS_Store
+*.swp
+*.swo
+__pycache__/

@@ -1,0 +1,55 @@
+intervention,kind,verdict,anchor,one_line_rationale
+Aerobic exercise,intervention,Strong (humans),Exercise (anchor),20-40% all-cause mortality reduction at moderate doses; mechanism breadth across nearly every aging hallmark.
+Resistance training,intervention,Strong (humans),Exercise,10-20% all-cause mortality + unique sarcopenia/falls protection.
+Sleep (~7h),intervention,Strong observational / Probable causal,Exercise,U-shaped mortality curve at population scale; 7h is the population optimum.
+Statins (secondary prevention),intervention,Strong,Exercise,Best-evidenced cardiovascular drug class; T1 evidence at the highest tier.
+Caloric restriction,intervention,Strong (mice) / Suggestive (humans),CR (anchor),Decades of replication in mice; CALERIE-2 biomarkers; no human mortality data.
+Rapamycin,intervention,Probable,Rapamycin (anchor),ITP-positive across cohorts; PEARL/Mannick human surrogate evidence.
+Acarbose,intervention,Probable (mice) / Suggestive (humans),Rapamycin,ITP +22% males / +5% females; combination with rapamycin extends further.
+17-alpha-estradiol,intervention,Probable (male mice) / Insufficient (humans),Rapamycin,ITP +12-19% in male mice only; human translation essentially zero.
+Canagliflozin,intervention,Probable (mice + CV/CKD/DM populations) / Suggestive (general aging),Rapamycin,ITP-positive male mice; SGLT2-class T1 evidence in indicated populations.
+GLP-1 agonists,intervention,Probable (obese / CV-risk) / Suggestive (lean longevity microdose),Rapamycin,SELECT trial 20% MACE reduction + all-cause mortality reduction in obese non-diabetic CVD.
+Statins (primary 40-75),intervention,Probable,Exercise,USPSTF B-grade in elevated CV risk.
+Statins (>75 healthy primary),intervention,Mixed,Exercise,USPSTF: insufficient evidence; STAREE pending.
+Sauna / heat exposure,intervention,Probable,Exercise,KIHD cohort dose-response; ~50% CV mortality reduction at 4-7 sessions/week.
+HRT (women, early menopause),intervention,Probable,Statins,WHI 20-year follow-up timing-stratified favorable.
+HRT (women, late initiation),intervention,Mixed,Statins,Timing hypothesis: benefit attenuates / inverts.
+TRT (documented hypogonadism),intervention,Probable,Statins,TRAVERSE cleared CV-safety in 2023.
+TRT (eugonadal men longevity),intervention,Suggestive,Statins,No trial evidence; suppresses endogenous production.
+Creatine + RT (older adults),intervention,Probable (sarcopenia/cognition adjunct) / Suggestive (standalone longevity),Resistance training,Sarcopenia and cognitive benefit in older adults.
+Zone 2 / VO2max framework,intervention,Probable (CRF claim) / Mixed (Zone-2-optimal claim),Exercise,VO2max-mortality cohort meta-analysis strong; volume-matched HIIT equals Zone 2.
+NMN / NR (NAD+ precursors),intervention,Suggestive,NMN (anchor),NR failed at ITP; NMN itself untested at ITP-grade; human RCTs measure NAD+ levels not outcomes.
+Senolytics (D+Q + fisetin),intervention,Suggestive,NMN,Strong mouse healthspan; early human trials with mixed clock signals.
+Spermidine,intervention,Suggestive,NMN,SmartAge primary endpoint null (n=100 12 months); observational signal positive but confounded.
+GlyNAC,intervention,Suggestive,NMN,Single-group dominance (Sekhar lab); no independent replication.
+Sulforaphane,intervention,Suggestive,NMN,Best-evidenced natural Nrf2 activator.
+Plasma exchange / TPE,intervention,Suggestive,Senolytics,Conboy lab pilots; commercial layering high.
+Taurine,intervention,Suggestive (leaning downgrade),NMN,Yadav 2023 striking but single-lab; 2025 Science follow-up undermined age-decline premise.
+Omega-3 (general),intervention,Suggestive (general) / Probable (REDUCE-IT population),Rapamycin,VITAL primary null; REDUCE-IT positive at 4g/day in elevated TG / on-statin CVD.
+Lithium (low-dose, observational + MCI),intervention,Suggestive,NMN,Drinking-water observational signals on suicide/dementia.
+Lithium (microdosing broader claims),intervention,Mostly hype,Resveratrol,Supplement-form longevity claim unsupported beyond observational data.
+CoQ10 (HF / statin myalgia),intervention,Suggestive,Omega-3,Q-SYMBIO supports HF use.
+CoQ10 (general longevity),intervention,Mostly hype,Resveratrol,Heart failure data does not generalize to aging in healthy adults.
+EGCG / green tea (consumption),intervention,Suggestive,Resveratrol,Observational mortality benefit in East Asian cohorts.
+EGCG (high-dose supplements),intervention,Mostly hype,Resveratrol,Hepatotoxicity signal at supplement doses.
+Berberine (cardiometabolic),intervention,Suggestive,Metformin,Modest glycemic/lipid effects; longevity claim weaker.
+Berberine (longevity framing),intervention,Mostly hype,Resveratrol,"Natural metformin" framing unsupported.
+Cold exposure (narrow indications),intervention,Suggestive,Sauna,Mood / BAT / recovery; longevity claim weak.
+Cold exposure (longevity framing),intervention,Mostly hype,Resveratrol,Wellness-industry framing outruns evidence.
+Metformin,intervention,Mixed,Rapamycin,ITP-null when tested alone; observational human data confounded; MET-PREVENT shows exercise blunting.
+Time-restricted eating,intervention,Mixed,CR,Liu 2022 NEJM null vs matched-calorie comparator; benefit largely calorie-mediated.
+Vitamin D,intervention,Mixed,Rapamycin,VITAL primary null; ~13% cancer-mortality signal real; hip-fracture signal in women.
+Hyperbaric oxygen,intervention,Mixed,NMN,Single-group dominance + COI; replication missing.
+Resveratrol,intervention,Mostly hype,Resveratrol (anchor),ITP-failed; SIRT1 mechanism does not survive 2025 meta-analysis; Sirtris/GSK program failed.
+Curcumin,intervention,Mostly hype longevity / Suggestive OA pain,Resveratrol,Bioavailability ceiling; PAINS critique; modest evidence only for OA pain.
+Quercetin (standalone),intervention,Mostly hype,Resveratrol,Senolytic case lives in D+Q combination not standalone.
+Methylene blue,intervention,Mostly hype,Resveratrol,TauRx Alzheimer's program failed; biohacker framing unsupported.
+Pterostilbene,intervention,Mostly hype,Resveratrol,Same template as resveratrol.
+PQQ,intervention,Mostly hype,Resveratrol,"Mitochondrial biogenesis" claim contested; thin human evidence.
+Astaxanthin,intervention,Mostly hype longevity / Suggestive narrow,Resveratrol,Supplement-form longevity claims rest on extrapolation.
+Yamanaka factors / partial reprogramming,intervention,Insufficient evidence,(none — preclinical),First FDA-cleared cellular rejuvenation trial April 2026.
+Klotho upregulation,intervention,Insufficient evidence,(none — preclinical),Strong mouse evidence; no human supplementation pathway established.
+Rapamycin + Acarbose,interaction,Probable (mice — among largest ITP combined effects),Rapamycin,ITP +34% males / +28% females; rapamycin direct + acarbose CR-mimetic synergy.
+Rapamycin + Metformin,interaction,Probable (driven by rapamycin) / Suggestive (humans),Rapamycin,ITP combined effect approximately equal to rapamycin alone; metformin contributes little.
+Metformin x Exercise,interaction,Probable antagonism,Exercise,Metformin blunts mitochondrial and hypertrophy adaptations to exercise (MET-PREVENT 2025).
+GLP-1 + Resistance Training,interaction,Probable mitigation,Resistance training,RT preserves lean mass during GLP-1-induced weight loss.
