@@ -4,6 +4,8 @@ A continuously updated, evidence-weighted map of aging interventions. Verdicts f
 
 **Last index update: 2026-04-25.** **Total pages: 42 (38 interventions + 4 interactions).**
 
+> **🌐 Round 2 in progress:** A companion synthesis incorporating **non-English-language evidence** (Mandarin Chinese, Japanese, Russian, German, Korean, Spanish, French) is underway at https://github.com/keyserfaty/aging-synthesis-multilingual. Round 1 verdicts here are unchanged; Round 2 produces its own multilingual evidence ladders and a cross-language reconciliation. Methodology + predictions for Round 2 are locked (2026-04-25) before any non-English source has been read.
+
 > **📄 Paper:** [Where the Longevity Discourse is Systematically Wrong](paper/paper.md) — synthesis paper covering the methodology + the eight findings the popular discourse gets wrong + what deserves more attention. [HTML version](paper/paper.html) · [Machine-readable verdict table (CSV)](paper/verdict-table.csv)
 >
 > **📌 Publication status (submitted 2026-04-25):**
