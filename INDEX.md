@@ -11,9 +11,9 @@ A continuously updated, evidence-weighted map of aging interventions. Verdicts f
 > **📌 Publication status (submitted 2026-04-25):**
 > - Zenodo (locked methodology + verdict-table snapshot, immutable pre-commitment archive): [DOI 10.5281/zenodo.19768647](https://doi.org/10.5281/zenodo.19768647) — published
 > - Zenodo (paper PDF + Markdown + verdict CSV): [DOI 10.5281/zenodo.19769433](https://doi.org/10.5281/zenodo.19769433) — published
-> - medRxiv preprint: `MEDRXIV/2026/351734` — submitted, awaiting screening (DOI assigned at posting)
+> - medRxiv preprint: `MEDRXIV/2026/351734` — **declined 2026-04-27** (medRxiv requires institutional affiliation; "Independent researcher" doesn't qualify)
 > - npj Aging (Springer Nature, peer review): submission ID `56b33daa-7a35-493b-a94d-656697ad825a` — under technical check
-> - The Lancet Healthy Longevity (peer review): manuscript number `THELANCETHEALTHYLONGEVITY-D-26-00458` — under editorial review (formal manuscript number assigned 2026-04-25; replaces submission-track placeholder S-26-00591)
+> - The Lancet Healthy Longevity (peer review): manuscript number `THELANCETHEALTHYLONGEVITY-D-26-00458` — **desk-rejected 2026-04-27** by Editor-in-Chief (capacity-based; no peer review)
 >
 Verdicts use these bands (lowest evidence → highest):
 - **Insufficient evidence** — too little data to form a verdict
